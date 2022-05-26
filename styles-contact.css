@@ -1,0 +1,189 @@
+/*This is my 377 FoCo Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- This is the beginning of my 377 FoCo Web Page Project ------------ */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-image: url("images/forest-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+	
+	
+}
+
+.center {
+    width: 800px;
+	padding: 2%;
+    margin: 100px auto;
+ 	background: #1a1d1eef; /*this uses opacity of 75% for the background color*/
+	text-align: center;
+	border: 4px groove rgb(193, 168, 88);
+}
+
+   
+#logo {
+    margin-bottom: 16px;
+	text-align: center;
+}
+
+h1 {
+	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	font-family: 'rubrik-edge-new', sans-serif;
+	font-weight:100;
+	font-style: italic;
+	font-size: 2em;
+    margin: 0px auto 10px auto;
+    color: #fff;
+}
+
+h2 {
+	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	font-family: 'rubrik-edge-new', sans-serif;
+	font-weight:100;
+	font-style: italic; 
+	font-size: 1.5em;
+    line-height: 1.4;
+    color: #fff;
+    padding: 0px 0px;
+    margin: 0px auto 2px auto;
+}
+h3 {
+	font-family: 'rubrik-edge-new', sans-serif;
+	font-weight:100;
+	font-style: italic;
+	font-size: 1.3em;
+	line-height:2.4;
+	color: #f5f5f5;
+}
+
+p {
+	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */		
+	font-family: 'rubrik-edge-new', sans-serif;
+	font-weight:100;
+	font-style: italic;
+	font-size: 1.2em;
+    line-height: 1.6;
+    color: #fff;
+}
+    
+nav{
+	font-family:'rubrik-edge-new', sans-serif; 
+	font-size: 1.2em;
+	width: 400px;
+	margin: 0 auto;
+	border: groove rgb(193, 168, 88);
+	border-width: 3px 0; 
+	text-align: center;
+	margin-top: 2em;
+}  
+
+nav li{
+	display: inline;
+}
+
+nav a{
+	display: inline-block;
+	padding: 10px;
+}
+
+a{
+	color: #444;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover{
+	color: black;
+	background: rgb(193, 168, 88);
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'rubrik-edge-new', sans-serif;
+	font-weight:100;
+	font-style: italic;
+	
+}
+.nav-bar{
+	display: flex;
+	Width: 1500px;
+	background-color: #1a1d1eef;
+	position: sticky;
+	top: 0;
+}
+ul{
+	display: flex;
+	list-style: none;
+}
+a{
+	margin: 5px 10px;
+	text-decoration: none;
+	color: #f5f5f5;
+	font-size: 18px;
+
+}
+.content{
+	height:150vh;
+}
+#Menu {
+	border: groove #f5f5f5;
+	border-width: 5px;
+}
